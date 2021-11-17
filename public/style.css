@@ -1,4 +1,4 @@
-body{
+.body{
     background-color: rgb(34, 33, 33);
     overflow-x: hidden;
 }
@@ -13,9 +13,39 @@ h1{
     
 
 }
+.box {
+    height: 20px;
+    width: 20px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+  }
 p{
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+}
+.cbtn{
+    
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: end;
+    justify-self: end;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: rgb(34, 33, 33);
+    
 }
