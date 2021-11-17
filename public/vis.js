@@ -439,11 +439,11 @@ d3.json("1k.json", (error, graph) => {
       i=i+1;
   }
   console.log("clusters", clusters);
-  keys = Object.keys(clusters);
-  for (key in keys){
-  document.write("<p>" +clusters[key].id +": "+ clusters[key].url + "</p>");
+  // keys = Object.keys(clusters);
+  // for (key in keys){
+  // document.write("<p>" +clusters[key].id +": "+ clusters[key].url + "</p>");
   
-  }
+  // }
   
   
   const svg = d3
