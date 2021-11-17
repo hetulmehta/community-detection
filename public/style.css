@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(34, 33, 33);
+    overflow-x: hidden;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    
+    
+
+}
+p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}

@@ -1,12 +1,12 @@
 /* global d3 */
 
-d3.json("1k.json", (error, graph) => {
+d3.json("data10k.json", (error, graph) => {
   console.log("graph", graph);
   const nodes = graph.nodes;
   const links = graph.links;
 
-  const width = 9600;
-  const height = 5000;
+  const width = 1600;
+  const height = 1700;
 
   // separation between same-color circles
   const padding = 9; // 1.5
@@ -587,3 +587,5 @@ d3.json("1k.json", (error, graph) => {
     });
   }
 });
+
+
