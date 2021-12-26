@@ -1,6 +1,6 @@
 /* global d3 */
 
-d3.json("data10k.json", (error, graph) => {
+d3.json("10kdata.json", (error, graph) => {
   console.log("graph", graph);
   const nodes = graph.nodes;
   const links = graph.links;
