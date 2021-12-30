@@ -1,8 +1,10 @@
 {
   "name": "community-detection",
+  
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/hetulmehta/community-detection#readme",
   "dependencies": {
+    "color-name-list": "^8.37.0",
     "express": "^4.17.1",
     "nodemon": "^2.0.15"
   }
